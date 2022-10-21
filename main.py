@@ -1,11 +1,10 @@
 # 5A
 import math as m
-import keyboard as k
 
 def check_num(str): 
     while True:
         num = input(str)
-        if num == num.lower() == 'end':
+        if num.lower() == 'end':
             return False
 
         try:
